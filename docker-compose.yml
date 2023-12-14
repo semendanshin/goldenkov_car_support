@@ -10,7 +10,7 @@ services:
       - /etc/localtime:/etc/localtime:ro
       - /etc/timezone:/etc/timezone:ro
     ports:
-      - "5430:5432"
+      - "5433:5432"
     env_file:
       - .env
 #  redis:
