@@ -34,8 +34,8 @@ services:
       - ./bot:/code/bot
       - /etc/localtime:/etc/localtime:ro
       - /etc/timezone:/etc/timezone:ro
-    ports:
-      - "9999:9999"
+#    ports:
+#      - "9999:9999"
     env_file:
       - .env
     depends_on:
